@@ -12,12 +12,11 @@ A simple notification system that supports Email, SMS, and In-App notifications.
 
 ## 🛠️ Features
 
-* ✅ Send notifications (Email, SMS, In-App)
-* ✅ View notifications for a specific user
-* 🔁 Retry up to 3 times if a notification fails
-* 🧠 Uses in-memory storage for users and notifications
-* 🧰 Clean Express API setup with structured responses
-* 🪪 Easily extendable to integrate message queues like RabbitMQ or Kafka
+* Send notifications (Email, SMS, In-App)
+* View notifications for a specific user
+* Retry up to 3 times if a notification fails
+* Uses in-memory storage for users and notifications
+* Clean Express API setup with structured responses
 
 ---
 
@@ -146,18 +145,6 @@ npm start
 * No actual integration with Email/SMS services.
 * Notifications and users are stored in memory.
 * Retry logic retries 3 times if status is 'failed'.
-* Message queue (RabbitMQ/Kafka) not implemented here — considered future work.
-
----
-
-## 🔮 Future Enhancements
-
-* Integrate real email/SMS services like SendGrid or Twilio
-* Add a MongoDB/PostgreSQL database
-* Implement a message queue (e.g., RabbitMQ or Kafka)
-* Add a proper user registration/login system
-* Improve failure logging & delivery analytics
-
 ---
 
 ## 👩‍💼 Author

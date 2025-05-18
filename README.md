@@ -4,7 +4,7 @@ A simple notification system with support for Email, SMS, and In-App notificatio
 
 ## 🚀 Live Demo
 
-👉 [Live on Render](https://your-app-name.onrender.com)
+👉 [Live on Render](https://notification-system-api.onrender.com)
 
 ---
 

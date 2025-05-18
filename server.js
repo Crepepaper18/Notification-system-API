@@ -71,6 +71,11 @@ let lastId = 4;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+  res.send('📣 Welcome to the Notification System API! Check the README for usage.');
+});
+
+
 app.get("/users/:id/notifications", (req,res) => {
     const id = parseInt(req.params.id);
     const user = users.find((u) => u.userId === id);
